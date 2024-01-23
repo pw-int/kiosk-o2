@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cz">
+//= html_partials/head.html
+
+<body class="index">
+    <main class="main">
+        <!-- Main section -->
+        <section class="banner">
+            <img src="img/hero-bg.png" alt="Banner image" class="banner-bg">
+        </section>
+        <section class="hero pb-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-12">
+                        <form method="get" action="pin.html" class="needs-validation" novalidate>
+                            <p class="fs-1 mb-3">Zadejte přijatý PIN:</p>
+                            <input type="text" pattern="[0-9]*" class="form-control text-center mb-2" id="inputPin" placeholder="XXXX" minlength="4" maxlength="4" required>
+
+                            <div class="d-grid mb-2">
+                                <button type="submit" class="btn btn-success">POTVRDIT</button>
+                            </div>
+                        </form>
+
+                        <p class="text-center mb-4">99 Kč (48 hodin bezplatné<br> zkušební verze)</p>
+
+                        <a href="otp.html" class="btn-link text-secondary text-center d-block mb-4">Změnit číslo</a>
+                        <a href="pin.html" class="btn-link text-secondary text-center d-block mb-4">Znovu odeslat PIN</a>
+
+                        <p class="mb-3">Kiosk je předplatitelská služba s neomezeným přístupem k více než 130 předním světovým novinám a časopisům
+                        </p>
+                        <p class="mb-3">Předplatné bude automaticky obnoveno za 99 Kč (48 hodin bezplatného zkušebního období), dokud se neodhlásíte
+                        </p>
+                        <p class="mb-3">Předplatné můžete kdykoli zrušit v sekci <a href="index.html" class="btn-link">Můj účet</a>
+                        </p>
+                        <p class="mb-3">Abyste mohli využívat tuto službu, musíte být starší 18 let nebo mít povolení od rodičů nebo osoby, která je oprávněna platit váš účet
+                        </p>
+                        <p class="mb-4">Za procházení a stahování obsahu na tomto portálu budou účtovány poplatky za data. Poplatky budou odečteny ze zůstatku
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        //= html_partials/footer.html
+    </main>
+</body>
+
+//= html_partials/scripts.html
+
+</html>

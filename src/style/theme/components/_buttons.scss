@@ -1,0 +1,28 @@
+.btn {
+    --bs-btn-color: #{$white};
+    --bs-btn-hover-color: #{$white};
+    --bs-btn-hover-color: #{$white};
+    --bs-btn-active-color: #{$white};
+    --bs-btn-border-radius: .375rem;
+}
+
+.btn-success {
+    --bs-btn-hover-color: #{$white};
+    background: $green!important;
+    border: none;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 1px 1px 7px 3px rgba(255, 31, 138, 0.1), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.1);
+        background-color: $green;
+    }
+}
+
+.btn-link {
+    font-size: .75rem;
+    --bs-link-color: #{$green};
+    --bs-btn-hover-color: #{$green};
+    --bs-link-hover-color: #{$green};
+    --bs-link-color-rgb: #{$green};
+    --bs-btn-disabled-color: #{$green};
+}

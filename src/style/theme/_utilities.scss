@@ -1,0 +1,24 @@
+body {
+    background: $gradient;
+    --bs-body-color: #{$white};
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $green;
+}
+
+.text-success {
+    color: $green!important;
+}
+
+.text-secondary {
+    color: $gray!important;
+}
+
+textarea {
+    resize: none;
+}

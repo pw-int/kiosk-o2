@@ -12113,12 +12113,11 @@ p {
 .main .footer .list-inline .list-inline-item {
   list-style-type: none;
   padding: 0 0.625rem;
-  border-left: 1px solid #424242;
 }
 .main .footer .list-inline .list-inline-item .btn-link {
   font-weight: 500;
   font-size: 0.75rem;
-  color: #424242;
+  color: #FFFFFF;
 }
 .main .footer .list-inline .list-inline-item .btn-link:hover {
   color: #6CCB6B;
@@ -12132,10 +12131,4 @@ p {
   .main .footer .list-inline .list-inline-item {
     padding: 0 0.25rem;
   }
-}
-.main .footer .list-inline .list-inline-item:last-child {
-  border-left: none;
-}
-.main .footer .list-inline .list-inline-item.border-right:last-child {
-  border-left: 1px solid #424242;
 }

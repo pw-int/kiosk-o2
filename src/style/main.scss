@@ -83,11 +83,10 @@
             .list-inline-item {
                 list-style-type: none;
                 padding: 0 .625rem;
-                border-right: 1px solid $black;
                 .btn-link {
                     font-weight: 500;
                     font-size: .75rem;
-                    color: $black;
+                    color: $white;
                     &:hover {
                         color: $green;
                     }
@@ -98,12 +97,6 @@
                 @media (max-width: 375px) {
                     padding: 0 .25rem;
                 }
-            }
-            .list-inline-item:last-child {
-                border-right: none;
-            }
-            .list-inline-item.border-right:last-child {
-                border-right: 1px solid $black;
             }
         }
     }

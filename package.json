@@ -1,7 +1,7 @@
 {
-    "name": "kiosk-o2-mobile-store-markup",
+    "name": "kiosk-o2-store-markup",
     "version": "1.0.0",
-    "description": "kiosk-o2-mobile-store-markup",
+    "description": "kiosk-o2-store-markup",
     "main": "gulpfile.js",
     "scripts": {
         "dev": "gulp",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://pw-int.github.io/kiosk-o2-mobile/"
+        "url": "https://pw-int.github.io/kiosk-o2/"
     },
     "author": "Ivan Dubynets",
     "license": "ISC",

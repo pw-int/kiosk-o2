@@ -2,7 +2,7 @@
 
 Markup project created by figma design.
 
-Figma link [url](https://www.figma.com/file/IDCK3BofmoiJnVZLcbwc1X/Czech-Republic-O2-The-Kiosk-(via-Dimoco)-subscription-flow-design-%5BPIN%2BHE%5D-(Copy)?type=design&node-id=1-127&mode=design&t=9LpqIg1NABEKgvUP-0 "Figma link")
+Figma link [url](https://www.figma.com/file/YfCFui9BV58bXJZoyofPMK/Czech-Republic-O2-The-Kiosk-(via-Dimoco)-subscription-flow-design-%5BPIN%2BHE%5D?type=design&node-id=0-1&mode=design&t=J6PbSRDipUHvIExB-0 "Figma link")
 
 Demo 3g link [url](https://pw-int.github.io/kiosk-o2/ "Demo 3g link")
 
